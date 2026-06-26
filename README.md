@@ -7,6 +7,7 @@
 ## Overview
 
 **S.A.V.E** is a local password vault application with a graphical interface built using Python and `customtkinter`. every cryptographic primitive — hashing, symmetric encryption, and asymmetric key-wrapping — is implemented from the ground up as simplified, educational versions of real-world algorithms.
+
 ---
 
 ## Getting Started
