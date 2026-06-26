@@ -6,11 +6,41 @@
 
 ## Overview
 
-**S.A.V.E** is a local password vault application with a graphical interface built using Python and `customtkinter`. What makes it unique is that every cryptographic primitive — hashing, symmetric encryption, and asymmetric key-wrapping — is implemented from the ground up as simplified, educational versions of real-world algorithms.
+**S.A.V.E** is a local password vault application with a graphical interface built using Python and `customtkinter`. every cryptographic primitive — hashing, symmetric encryption, and asymmetric key-wrapping — is implemented from the ground up as simplified, educational versions of real-world algorithms.
+---
 
-The application securely stores your credentials (site, username, password) locally in a JSON vault file, protected by a layered encryption scheme.
+## Getting Started
+
+### Prerequisites
+
+- Python 3.10+
+
+### Installation
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/AbdelkrimElAyachi/S.A.V.E-Secure-Algorithm-Drive-Vault-Engine-.git
+cd S.A.V.E-Secure-Algorithm-Drive-Vault-Engine-
+```
+
+**2. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+> Dependencies: `customtkinter`, `darkdetect`, `packaging`
+
+### Running the App
+
+```bash
+python -m src.app
+```
+
+On first launch, S.A.V.E will detect that no vault exists and present the **registration screen** to create a new vault with a master password. On subsequent launches, it will show the **login screen**.
+
 
 ---
+
 
 ## How It Works
 
@@ -96,36 +126,6 @@ S.A.V.E/
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.10+
-
-### Installation
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/AbdelkrimElAyachi/S.A.V.E-Secure-Algorithm-Drive-Vault-Engine-.git
-cd S.A.V.E-Secure-Algorithm-Drive-Vault-Engine-
-```
-
-**2. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-> Dependencies: `customtkinter`, `darkdetect`, `packaging`
-
-### Running the App
-
-```bash
-python -m src.app
-```
-
-On first launch, S.A.V.E will detect that no vault exists and present the **registration screen** to create a new vault with a master password. On subsequent launches, it will show the **login screen**.
-
----
 
 ## Application Flow
 
